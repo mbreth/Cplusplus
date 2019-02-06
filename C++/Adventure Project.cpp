@@ -16,17 +16,17 @@ int main() {
 	cin >> playerName;  //First player input
 
 	cout << playerName << " has awoken from a cryogenic slumber...\n\n" << endl;
-	Sleep(5000);
+	Sleep(5000);  //Using sleep
 	cout << "You emerge from your vault, and start to wander the desolate land that is tarnished with radiation.\n";
-	Sleep(5000);
+	Sleep(5000);  //Using sleep
 	cout << "\nYou vaguely recognize your surroundings but you have no recollection what has happened to you.\n";
-	Sleep(5000);
+	Sleep(5000);  //Using sleep
 	cout << "\nYou start to move about the wasteland until you spot the familiarity of your old home... \n\n";
-	Sleep(10000);
+	Sleep(10000);  //Using sleep
 	cout << playerName << " starts to rummage through the house looking for food, water and a weapon..." << endl;
-	Sleep(3000);
+	Sleep(3000);  //Using sleep
 	cout << "You spot a pipewrench, a baseball bat and a shovel...";
-	Sleep(3000);
+	Sleep(3000);  //Using sleep
 	cout << "Which weapon are you going to take?\n\n";
 	cout << "1 - pipewrench\n";
 	cout << "2 - baseball bat\n";
@@ -48,13 +48,13 @@ int main() {
 	}
 
 	cout << "You start to feel scared, lost and lonely while you are searching through your old home.\n";
-	Sleep(5000);
+	Sleep(5000);  //Using sleep
 	cout << "\nThe picture of your wife and son lay on the ground covered in dirt and mud.\n";
-	Sleep(5000);
+	Sleep(5000);  //Using sleep
 	cout << "Suddenly, you do not feel alone anymore...";
-	Sleep(7000);
+	Sleep(7000);  //Using sleep
 	cout << "THE FRONT DOOR OF YOUR HOUSE IS KICKED IN BY A WASTELAND RAIDER!!!\n";
-	Sleep(4000);
+	Sleep(4000);  //Using sleep
 	cout << "\nYou know what you have to do!\n";
 	cout << "\nYou must fight!!!\n\n";
 
