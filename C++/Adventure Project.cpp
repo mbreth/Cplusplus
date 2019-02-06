@@ -9,11 +9,11 @@ using namespace std;
 int main() {
 	cout << "\tCrawl out through the Fallout\n";
 
-	string playerName;
-	int weapon;
+	string playerName;  //String
+	int weapon;	    //Int
 
 	cout << "\nWhat is your player name?: ";
-	cin >> playerName;
+	cin >> playerName;  //First player input
 
 	cout << playerName << " has awoken from a cryogenic slumber...\n\n" << endl;
 	Sleep(5000);
@@ -31,9 +31,9 @@ int main() {
 	cout << "1 - pipewrench\n";
 	cout << "2 - baseball bat\n";
 	cout << "3 - shovel\n";
-	cin >> weapon;
+	cin >> weapon;   //Second player input
 
-	switch (weapon) {
+	switch (weapon) {  //Using switch to select a weapon
 	case 1:
 		cout << "You have acquired the pipewrench!\n";
 		break;
@@ -60,18 +60,16 @@ int main() {
 
 	int health;
 	int raiderHealth;
-	raiderHealth = 10;
-	health = 10;
+	raiderHealth = 10;   
+	health = 10;    //Health set to 10
 	int battleDamage1;
 	int battleDamage2;
 	int battleDamage3;
 	int battleDamage4;
 	char choice;
-	int turns;
-	turns = 0;
 
 	while (health > 0) { //Turn based battle commences
-		srand(static_cast<unsigned int>(time(0))); //See Random Number Generator
+		srand(static_cast<unsigned int>(time(0))); //Seed Random Number Generator
 		int randomNumber1 = rand();
 		int randomNumber2 = rand();
 		int randomNumber3 = rand();
@@ -120,27 +118,12 @@ int main() {
 				cout << "\nNo damage dealt!";
 			}
 		}if (health <= 0) {
-			cout << "\nYou have died!\n\n";
+			cout << "\nYou have died!\n\n";  //Player has died
 			return 0;
 		}
 
 	}
 	cout << "\nYou have survived your first battle in the wasteland.\n";
-	cout << "\nCongratulations warrior.\n\n";
+	cout << "\nCongratulations warrior.\n\n";  //Showing that the player survived
 	return 0;
 }
-
-
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
