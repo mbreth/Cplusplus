@@ -1,3 +1,5 @@
+// Gameplay inspired by Fallout 4 by Bethesda
+
 #include "pch.h"
 #include <iostream>
 #include <string>
