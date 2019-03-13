@@ -1,3 +1,7 @@
+// I used random animals just because it was something off the top of my head
+// Made it a bit easier to manipulate if I called it inventory
+// Just getting in some practice
+
 #include <iostream>
 #include <string>
 #include <vector>
